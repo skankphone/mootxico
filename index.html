@@ -1,0 +1,976 @@
+<!DOCTYPE html>
+
+<html>
+  <body>
+      <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Primary Meta Tags -->
+    <link rel="icon" type="image/png" href="https://file.garden/ZjNvaIk9OUXT6YPj/image%20(57).png">
+    <meta name="title" content="/skankphone/">
+    <meta name="description" content="moot, honestly, I have to say that you are very stupid. Not only are you asking for 20,000 dollars all of a sudden to pay for a year of 4chan, and a few extra servers (which you don't need and don't deserve)...">
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://skankphone.neocities.org/">
+    <meta property="og:title" content="/skankphone/">
+    <meta property="og:description" content="moot, honestly, I have to say that you are very stupid. Not only are you asking for 20,000 dollars all of a sudden to pay for a year of 4chan, and a few extra servers (which you don't need and don't deserve)...">
+    <meta property="og:image" content="https://file.garden/ZjNvaIk9OUXT6YPj/image%20(57).png">
+    <meta name="theme-color" content="#880000">
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary">
+    <meta property="twitter:url" content="https://skankphone.neocities.org/">
+    <meta property="twitter:title" content="/skankphone/">
+    <meta property="twitter:description" content="moot, honestly, I have to say that you are very stupid. Not only are you asking for 20,000 dollars all of a sudden to pay for a year of 4chan, and a few extra servers (which you don't need and don't deserve)..">
+    <meta property="twitter:image" content="https://file.garden/ZjNvaIk9OUXT6YPj/image%20(57).png">
+
+  <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+
+<style type="text/css">* {cursor: url(https://cur.cursors-4u.net/cursors/cur-8/cur771.cur), auto !important;}</style><a href="https://www.cursors-4u.com/cursor/2011/02/25/windows-7-pointer.html" target="_blank" title="Windows 7 Pointer"><img src="https://cur.cursors-4u.net/cursor.png" border="0" alt="Windows 7 Pointer" style="position:absolute; top: 0px; right: 0px;" /></a>
+
+<!-- BASED OFF OF (https://layouts.spacehey.com/layout?id=89233 , https://layouts.spacehey.com/layout?id=27619) -->
+
+<div id="profile">
+
+<h1 style="color:#880000;"><center><img src="https://files.catbox.moe/l6scjj.png"/></center><center>/skankphone/</center></h1>
+<center><h2 style="color:#880000;">PLZ READ THIS!!!!</h2></center>
+<center><p style="color:#880000;">the site may not work on mobile too well.</p> </center>
+
+<center><p style="color:#880000;">the site has javascript + iframes on it. it will work without javascript and iframes. (unless i add more nessesary stuff that uses it) but some effects might be missing- no big detriment though.</p> </center>
+<center><p style="color:#880000;">you need java for ruffle to work.</p></center>
+<center><p style="color:#880000;">what MAY be flashy though is some of the images on this site- the entire thing isn't flashy though</p></center>
+
+<center><p style="color:#880000;">if you are okay with this, click view site.</p></center>
+<a href="#profile">[view site]</a>
+
+</div>
+
+<div class="moot" style="position: fixed; z-index: 9001; pointer-events: none; top: 0; right: 0; bottom; 1"><img alt="Moot.png" src="https://file.garden/ZjNvaIk9OUXT6YPj/MootLurkingAround.png" width="75" height="150" data-file-width="102" data-file-height="204"></div>
+
+
+
+<style> 
+
+
+
+
+:root {
+
+  --warning-background-color: white;
+
+  --warning-text-color: #880000;
+
+}
+
+
+
+#profile {
+
+ position: fixed;
+
+ z-index: 100;
+
+ top: 0; 
+
+ left: 0;
+
+ width: 100vw;
+
+ height: 100vh;
+
+ padding: 50px 100px;
+
+ font-size: 130%;
+
+background-image:url("https://files.catbox.moe/q7f8un.jpg");
+
+ color: var(--warning-text-color);
+
+ overflow-y: scroll;
+
+ opacity: 1;
+
+ transition: .2s;
+
+}
+
+
+
+#profile > * {
+
+ width: 100%;
+
+ max-width: 700px!important;
+
+ margin: 20px auto;
+
+ display: block;
+
+}
+
+
+
+#profile:target {
+
+ opacity: 0;
+
+ visibility: hidden;
+
+}
+
+
+
+#profile > a {
+
+ text-align: center;
+
+ font-weight: bold;
+
+}
+
+
+
+#profile > ul {
+
+ padding: 10px 50px;
+
+ border: 2px dashed var(--warning-text-color);
+
+}
+</style>
+
+  <script type="text/javascript">
+// <![CDATA[
+var colour="random"; // in addition to "random" can be set to any valid colour eg "#f0f" or "red"
+var sparkles=50;
+
+/****************************
+*  Tinkerbell Magic Sparkle *
+*(c)2005-13 mf2fm web-design*
+*  http://www.mf2fm.com/rv  *
+* DON'T EDIT BELOW THIS BOX *
+****************************/
+var x=ox=400;
+var y=oy=300;
+var swide=800;
+var shigh=600;
+var sleft=sdown=0;
+var tiny=new Array();
+var star=new Array();
+var starv=new Array();
+var starx=new Array();
+var stary=new Array();
+var tinyx=new Array();
+var tinyy=new Array();
+var tinyv=new Array();
+
+window.onload=function() { if (document.getElementById) {
+  var i, rats, rlef, rdow;
+  for (var i=0; i<sparkles; i++) {
+    var rats=createDiv(3, 3);
+    rats.style.visibility="hidden";
+    rats.style.zIndex="999";
+    document.body.appendChild(tiny[i]=rats);
+    starv[i]=0;
+    tinyv[i]=0;
+    var rats=createDiv(5, 5);
+    rats.style.backgroundColor="transparent";
+    rats.style.visibility="hidden";
+    rats.style.zIndex="999";
+    var rlef=createDiv(1, 5);
+    var rdow=createDiv(5, 1);
+    rats.appendChild(rlef);
+    rats.appendChild(rdow);
+    rlef.style.top="2px";
+    rlef.style.left="0px";
+    rdow.style.top="0px";
+    rdow.style.left="2px";
+    document.body.appendChild(star[i]=rats);
+  }
+  set_width();
+  sparkle();
+}}
+
+function sparkle() {
+  var c;
+  if (Math.abs(x-ox)>1 || Math.abs(y-oy)>1) {
+    ox=x;
+    oy=y;
+    for (c=0; c<sparkles; c++) if (!starv[c]) {
+      star[c].style.left=(starx[c]=x)+"px";
+      star[c].style.top=(stary[c]=y+1)+"px";
+      star[c].style.clip="rect(0px, 5px, 5px, 0px)";
+      star[c].childNodes[0].style.backgroundColor=star[c].childNodes[1].style.backgroundColor=(colour=="random")?newColour():colour;
+      star[c].style.visibility="visible";
+      starv[c]=50;
+      break;
+    }
+  }
+  for (c=0; c<sparkles; c++) {
+    if (starv[c]) update_star(c);
+    if (tinyv[c]) update_tiny(c);
+  }
+  setTimeout("sparkle()", 40);
+}
+
+function update_star(i) {
+  if (--starv[i]==25) star[i].style.clip="rect(1px, 4px, 4px, 1px)";
+  if (starv[i]) {
+    stary[i]+=1+Math.random()*3;
+    starx[i]+=(i%5-2)/5;
+    if (stary[i]<shigh+sdown) {
+      star[i].style.top=stary[i]+"px";
+      star[i].style.left=starx[i]+"px";
+    }
+    else {
+      star[i].style.visibility="hidden";
+      starv[i]=0;
+      return;
+    }
+  }
+  else {
+    tinyv[i]=50;
+    tiny[i].style.top=(tinyy[i]=stary[i])+"px";
+    tiny[i].style.left=(tinyx[i]=starx[i])+"px";
+    tiny[i].style.width="2px";
+    tiny[i].style.height="2px";
+    tiny[i].style.backgroundColor=star[i].childNodes[0].style.backgroundColor;
+    star[i].style.visibility="hidden";
+    tiny[i].style.visibility="visible"
+  }
+}
+
+function update_tiny(i) {
+  if (--tinyv[i]==25) {
+    tiny[i].style.width="1px";
+    tiny[i].style.height="1px";
+  }
+  if (tinyv[i]) {
+    tinyy[i]+=1+Math.random()*3;
+    tinyx[i]+=(i%5-2)/5;
+    if (tinyy[i]<shigh+sdown) {
+      tiny[i].style.top=tinyy[i]+"px";
+      tiny[i].style.left=tinyx[i]+"px";
+    }
+    else {
+      tiny[i].style.visibility="hidden";
+      tinyv[i]=0;
+      return;
+    }
+  }
+  else tiny[i].style.visibility="hidden";
+}
+
+document.onmousemove=mouse;
+function mouse(e) {
+  if (e) {
+    y=e.pageY;
+    x=e.pageX;
+  }
+  else {
+    set_scroll();
+    y=event.y+sdown;
+    x=event.x+sleft;
+  }
+}
+
+window.onscroll=set_scroll;
+function set_scroll() {
+  if (typeof(self.pageYOffset)=='number') {
+    sdown=self.pageYOffset;
+    sleft=self.pageXOffset;
+  }
+  else if (document.body && (document.body.scrollTop || document.body.scrollLeft)) {
+    sdown=document.body.scrollTop;
+    sleft=document.body.scrollLeft;
+  }
+  else if (document.documentElement && (document.documentElement.scrollTop || document.documentElement.scrollLeft)) {
+    sleft=document.documentElement.scrollLeft;
+    sdown=document.documentElement.scrollTop;
+  }
+  else {
+    sdown=0;
+    sleft=0;
+  }
+}
+
+window.onresize=set_width;
+function set_width() {
+  var sw_min=999999;
+  var sh_min=999999;
+  if (document.documentElement && document.documentElement.clientWidth) {
+    if (document.documentElement.clientWidth>0) sw_min=document.documentElement.clientWidth;
+    if (document.documentElement.clientHeight>0) sh_min=document.documentElement.clientHeight;
+  }
+  if (typeof(self.innerWidth)=='number' && self.innerWidth) {
+    if (self.innerWidth>0 && self.innerWidth<sw_min) sw_min=self.innerWidth;
+    if (self.innerHeight>0 && self.innerHeight<sh_min) sh_min=self.innerHeight;
+  }
+  if (document.body.clientWidth) {
+    if (document.body.clientWidth>0 && document.body.clientWidth<sw_min) sw_min=document.body.clientWidth;
+    if (document.body.clientHeight>0 && document.body.clientHeight<sh_min) sh_min=document.body.clientHeight;
+  }
+  if (sw_min==999999 || sh_min==999999) {
+    sw_min=800;
+    sh_min=600;
+  }
+  swide=sw_min;
+  shigh=sh_min;
+}
+
+function createDiv(height, width) {
+  var div=document.createElement("div");
+  div.style.position="absolute";
+  div.style.height=height+"px";
+  div.style.width=width+"px";
+  div.style.overflow="hidden";
+  return (div);
+}
+
+function newColour() {
+  var c=new Array();
+  c[0]=255;
+  c[1]=Math.floor(Math.random()*256);
+  c[2]=Math.floor(Math.random()*(256-c[1]/2));
+  c.sort(function(){return (0.5 - Math.random());});
+  return ("rgb("+c[0]+", "+c[1]+", "+c[2]+")");
+}
+// ]]>
+</script>
+
+<div class="snowflakes">
+  <div class="snowflake">
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/x3S5CWt/4chan.png" alt="4chan"/></a>
+  </div>
+  <div class="snowflake">
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/C6Dt0Ld/4channel.png" alt="4channel"/></a>
+  </div>
+  <div class="snowflake">
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/RPZk7Gg/ezgif-5-1370d224d5.png" alt="ezgif-5-1370d224d5"/></a>
+  </div>
+<div class="snowflake">
+     <a href="https://imgbb.com/"><img src="https://i.ibb.co/98SsBDG/pixil-frame-05.png" alt="pixil-frame-05"/></a>
+  </div>
+  <div class="snowflake">
+  <a href="https://imgbb.com/"><img src="https://i.ibb.co/x3S5CWt/4chan.png" alt="4chan"/></a>
+  </div>
+  <div class="snowflake">
+ <a href="https://imgbb.com/"><img src="https://i.ibb.co/C6Dt0Ld/4channel.png" alt="4channel"/></a>
+  </div>
+  <div class="snowflake">
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/RPZk7Gg/ezgif-5-1370d224d5.png" alt="ezgif-5-1370d224d5"/></a>
+  </div>
+  <div class="snowflake">
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/C6Dt0Ld/4channel.png" alt="4channel"/></a>
+  </div>
+  <div class="snowflake">
+  <a href="https://imgbb.com/"><img src="https://i.ibb.co/RPZk7Gg/ezgif-5-1370d224d5.png" alt="ezgif-5-1370d224d5"/></a>
+  </div>
+  <div class="snowflake">
+      <a href="https://imgbb.com/"><img src="https://i.ibb.co/g6HZY4H/ringerdinger.png" alt="ringerdinger"/></a>
+  </div>
+  <div class="snowflake">
+   <a href="https://imgbb.com/"><img src="https://i.ibb.co/x3S5CWt/4chan.png" alt="4chan"/></a>
+  </div>
+  <div class="snowflake">
+     <a href="https://imgbb.com/"><img src="https://i.ibb.co/C6Dt0Ld/4channel.png" alt="4channel"/></a>
+  </div>
+</div>
+<style>
+/* customizable snowflake styling */
+.snowflake {
+  color: #fff;
+  font-size: 1em;
+  font-family: Arial, sans-serif;
+  text-shadow: 0 0 5px rgba(0,0,0,0.7);
+}
+ 
+@-webkit-keyframes snowflakes-fall{0%{top:-10%}100%{top:100%}}@-webkit-keyframes snowflakes-shake{0%,100%{-webkit-transform:translateX(0);transform:translateX(0)}50%{-webkit-transform:translateX(80px);transform:translateX(80px)}}@keyframes snowflakes-fall{0%{top:-10%}100%{top:100%}}@keyframes snowflakes-shake{0%,100%{transform:translateX(0)}50%{transform:translateX(80px)}}.snowflake{position:fixed;top:-10%;z-index:9999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;cursor:default;-webkit-animation-name:snowflakes-fall,snowflakes-shake;-webkit-animation-duration:10s,3s;-webkit-animation-timing-function:linear,ease-in-out;-webkit-animation-iteration-count:infinite,infinite;-webkit-animation-play-state:running,running;animation-name:snowflakes-fall,snowflakes-shake;animation-duration:10s,3s;animation-timing-function:linear,ease-in-out;animation-iteration-count:infinite,infinite;animation-play-state:running,running}.snowflake:nth-of-type(0){left:1%;-webkit-animation-delay:0s,0s;animation-delay:0s,0s}.snowflake:nth-of-type(1){left:10%;-webkit-animation-delay:1s,1s;animation-delay:1s,1s}.snowflake:nth-of-type(2){left:20%;-webkit-animation-delay:6s,.5s;animation-delay:6s,.5s}.snowflake:nth-of-type(3){left:30%;-webkit-animation-delay:4s,2s;animation-delay:4s,2s}.snowflake:nth-of-type(4){left:40%;-webkit-animation-delay:2s,2s;animation-delay:2s,2s}.snowflake:nth-of-type(5){left:50%;-webkit-animation-delay:8s,3s;animation-delay:8s,3s}.snowflake:nth-of-type(6){left:60%;-webkit-animation-delay:6s,2s;animation-delay:6s,2s}.snowflake:nth-of-type(7){left:70%;-webkit-animation-delay:2.5s,1s;animation-delay:2.5s,1s}.snowflake:nth-of-type(8){left:80%;-webkit-animation-delay:1s,0s;animation-delay:1s,0s}.snowflake:nth-of-type(9){left:90%;-webkit-animation-delay:3s,1.5s;animation-delay:3s,1.5s}.snowflake:nth-of-type(10){left:25%;-webkit-animation-delay:2s,0s;animation-delay:2s,0s}.snowflake:nth-of-type(11){left:65%;-webkit-animation-delay:4s,2.5s;animation-delay:4s,2.5s}
+</style>
+        <div id="container"><div id="marquee"><marquee>&#127808; WAOW HI ANON!!!! HAVE YOU BEEN TO /r9k/ BEFORE???? I HAVEN'T SEEN YOU HERE BEFORE, HELLO!!! I HOPE WE CAN BE REALLY GOOD FRIENDS AND MAYBE EVEN MORE TEE HEE!!!! :DDD &#127808; everybody needs to be on their best fucking behavior. i want to have fun on teh internet today. &#127808; 7th grader 4channer ..... &#127808; I don't think you really want to use the words 'Chop. Chop.' in relation to your cock right now. &#127808; I FORGOT YOUR NAME WAS 4CHAM SLOPPY MAKEOUTS & I SAW A NOTIFICATION WITH THE NAME & WENT WHO THE FUCK &#127808; we should bring back public executions just for mars &#127808; and no sun in my OWN summer &#127808; so hit the fuckin' road and piss up a rope &#127808; and mars isn't a real human &#127808; This sounds like I was wacking my shit I am not wacking my shit &#127808; GET CONNECTED FOR FREE &#127808; 4chan sloppy makeouts  &#127808; so basically i was eating wood and i dropped it in the toilet and i had to grab it out of the toilet with my bare hands and i cried because i couldnt keep eating the wood &#127808;
+
+
+
+ </marquee>
+
+            <div id="headerArea">
+                <div id="header"></div>
+                <nav id="navbar" style="margin-bottom: 10px;">
+                    <ul>
+                        <li><a href="https://skankphone.neocities.org/">[/home/</a></li>
+                        <li><a href="https://skankphone.neocities.org/shrines">/shrines/</a></li>
+                        <li><a href="https://skankphone.neocities.org/blog">/blog/</a></li>
+                        <li><a href="https://spacehey.com/thinkpad">/spacehey/</a></li>
+                       <li><a href="https://github.com/skankphone">/github/</a></li>
+                        <li><a href="https://goblin-heart.net/sadgrl/projects/layout-builder/">/template/]</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div id="flex">
+  
+                <aside id="leftSidebar" style="margin-right: 10px;">
+                    <h2>things to look at</h2>
+                    <div class="box">
+                      <center>
+                     <img src="https://files.catbox.moe/270gqa.gif" alt="online now from myspace; the little guy walks out of picture saying fuck this!">  
+                     <a href="https://www.imood.com/users/skankphone"><img src="https://moods.imood.com/display/uname-skankphone/fg-880000/trans-1/imood.gif" alt="The current mood of skankphone at www.imood.com" border="0"></a>
+<br> 
+      </div>           
+                     
+                    
+                    <br>
+                    <center>
+                    <a href="https://twitter.com/sknkphone"><img src="https://files.catbox.moe/70asoe.gif" alt="TWITTER"></a>
+                        <a href="https://twitter.com/ipodshffle"><img src="https://files.catbox.moe/r2v8ka.gif" alt="PRIVATE TWITTER"></a>
+                        <a href="https://www.instagram.com/sknkphone/"><img src="https://files.catbox.moe/bv58g9.gif" alt="INSTAGRAM"></a>
+                        <a href="https://www.reddit.com/user/thanksthinkpad/"><img src="https://files.catbox.moe/wqxvsp.gif" alt="REDDIT"></a>
+                        <a href="https://github.com/skankphone"><img src="https://files.catbox.moe/i8etvd.gif" alt="GITHUB"></a>
+                        <a href="https://www.tiktok.com/@skankphone"><img src="https://files.catbox.moe/bfj0cv.gif" alt="TIKTOK"></a>
+                         <a href="https://skankphone.tumblr.com"><img src="https://files.catbox.moe/1c1mmq.gif" alt="TUMBLR"></a> 
+                        <a href="https://skankphone.newgrounds.com"><img src="https://files.catbox.moe/6bc2mg.gif" alt="NEWGROUNDS"></a> 
+                        <a href="https://board.divsel.com/"><img src="https://files.catbox.moe/ummsu6.gif" alt="DIVCHAN"></a> 
+                        <a href="http://www.websitegoodies.com/guestbook.php?a=view&id=1740528"><img src="https://files.catbox.moe/mgnhon.gif" alt="GUESTBOOK"></a>
+                         <a href="https://skankphone.neocities.org"><img src="https://files.catbox.moe/gseyf6.png" alt="MY BUTTON"></a>
+                        <p> ^ my button ! </p>
+                        </center>
+            
+                    
+                    
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>/skankphone/</title>
+ 
+  <ul class="clover">
+   
+   
+  </ul>
+  
+
+ 
+
+                </aside>
+        
+                <main>
+
+  
+           <center><div id="rainbow">
+    <h1 class="rainbow rainbow_text_animated">mars</h1>
+</div>  </center> 
+ <div id="mootykins">     <iframe style="display:block;margin:auto" allow="autoplay; fullscreen" sandbox="allow-scripts allow-same-origin" scrolling="no" frameborder="0" width="550" height="400" src="//s.4cdn.org/media/flash/embed.html?3#550,400,4chancity.swf" data-ruffle-polyfilled=""></iframe>
+  </div>
+  
+      <center>     <img src="https://files.catbox.moe/f642u6.gif" alt="bouncing smiles">      </center>
+      
+      
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quis neque ut est congue scelerisque. Nulla aliquet dapibus sagittis. Nam porta condimentum tellus vitae posuere. Aliquam sed arcu et dui blandit cursus nec id sapien. Nulla volutpat metus nec ante placerat, vel fringilla magna commodo. Morbi dapibus ante vitae fringilla sagittis. Cras ut nulla ultrices, gravida tellus sed, vehicula sem. Sed dignissim mauris id ex vulputate, ut scelerisque ante eleifend. Sed molestie ligula nisi, quis fermentum elit ornare quis.
+
+Morbi sit amet gravida dolor, non tincidunt felis. Donec ac odio feugiat, semper massa dignissim, tempus justo. Sed mollis mollis est, sit amet scelerisque lacus fringilla id. Sed convallis maximus eleifend. Ut fermentum risus ut dui molestie fermentum. Phasellus ultrices tellus a porta fringilla. Nulla varius lectus mauris, nec iaculis lectus fringilla non. Vestibulum sodales aliquet augue sit amet imperdiet. Morbi condimentum dolor at dui bibendum fringilla. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla aliquet nisi at risus ultricies, non tincidunt velit facilisis.
+
+Nulla facilisi. Morbi rhoncus purus varius consectetur sodales. Vestibulum vel dictum ex. Cras tempor ullamcorper turpis sit amet fermentum. In orci lorem, ultrices ac est dignissim, laoreet iaculis quam. Quisque pellentesque tempus neque at dictum. Sed tincidunt augue eu eros pellentesque, sit amet euismod purus rhoncus. Maecenas id lectus vitae nunc ultricies aliquet id sit amet velit. Aliquam erat volutpat. Nulla in sapien sed purus tristique elementum vitae sit amet lorem. Maecenas eget diam id diam placerat pharetra. Duis malesuada sagittis justo id pulvinar.
+Aliquam id faucibus ligula. Nunc at eros sed ipsum commodo maximus quis at tortor. Nam vulputate non diam non sollicitudin. Donec ut augue gravida, feugiat tellus eu, hendrerit magna. Nunc ut viverra risus, in mattis ipsum. Nunc sodales arcu elit, at malesuada massa porta eu. Nullam eu sem vel nisl rhoncus rutrum eu ullamcorper turpis.
+
+Mauris ac erat mattis, congue ligula nec, mollis lectus. Fusce in dolor eget arcu consequat pulvinar ut ut velit. Aliquam nec egestas odio. Etiam urna purus, cursus nec lobortis pellentesque, fringilla sit amet tellus. Maecenas nec diam ante. Cras sit amet metus ipsum. Curabitur ligula odio, molestie vel orci sed, eleifend semper urna. Maecenas non aliquet nibh, id rutrum turpis. Phasellus vitae sem at libero condimentum pretium vel sit amet nibh.</p> 
+
+</main>
+                <aside id="rightSidebar" style="margin-left: 10px;">
+                <div class="boxbar2">
+<h2>TO DO:</h2>
+</div>
+                    <div class="box">
+                      <h3>TO DO:</h3>
+                    <li>shrines</li>
+                    <li>add more flair and "quirky" ness .. <a href=https://gifcities.org/>gifcities,</a> <a href=https://momg.neocities.org>gifs n shtuff,</a>  <a href=https://99gifshop.neocities.org/>more gifs,</a> <a href="https://blinki.es/">blinkies 1,</a> <a href="https://blinkies.cafe/wall">more blinkies</a></li>
+                     <li><a href="https://www.cbox.ws/?r=5-940758">cbox</a>, at <a href="https://skankphone.neocities.org/cbox">this page</a></li>
+                     <li> make the box on my 404 page not an image and actually a real goddamn box.. </li>
+                     <li> blog </li>
+                    
+                        <ul style="padding-left:10px;">
+                        
+                       
+                        </ul>
+                    </div>
+
+                    
+                   
+                </aside>
+            </div>
+            <footer id="footer" style="margin-top: 10px;">
+                      Last modified: <script>document.write(document.lastModified);</script> </footer>
+        </div>
+        <!-- THIS IS THE CSS !-->
+        <style>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    
+@/font-face {
+
+font-family: "Tahoma";
+
+src: url(tahoma.ttf") format("truetype");
+
+
+/* font-style: italic; */
+
+/* font-weight: bold; */}
+
+            /* user styles */
+
+            /* styles are what change the color and sizes of stuff on your site. */
+
+            /* these are variables that are being used in the code
+    these tended to confuse some people, so I only kept 
+    the images as variables */
+
+            :root {
+               --header-image: url('https://files.catbox.moe/8vlvqt.jpg');
+    
+
+                /* colors */
+                --content: #F0E0D6;
+            }
+
+            /* if you have the URL of a font, you can set it below */
+            /* feel free to delete this if it's not your vibe */
+
+            /* this seems like a lot for just one font and I would have to agree 
+    but I wanted to include an example of how to include a custom font.
+    If you download a font file you can upload it onto your Neocities
+    and then link it! Many fonts have separate files for each style
+    (bold, italic, etc. T_T) which is why there are so many!*/
+#moot {
+      font-family: sans-serif;
+    font-size: 127%;
+    color: #000000;
+    line-height: 1.5em;
+    direction: ltr;
+    position: fixed;
+    z-index: 9001;
+    top: 0;
+    right: 0;
+}
+
+#marquee {
+            font-family: "Tahoma", Tahoma, sans-serif;
+            }
+            
+             #marquee {
+                color: #880000;
+                    }
+
+
+            @font-face {
+                font-family: Nunito;
+                src: url('https://sadhost.neocities.org/fonts/Nunito-Regular.ttf');
+            }
+
+            @font-face {
+                font-family: Nunito;
+                src: url('https://sadhost.neocities.org/fonts/Nunito-Bold.ttf');
+                font-weight: bold;
+            }
+
+            @font-face {
+                font-family: Nunito;
+                src: url('https://sadhost.neocities.org/fonts/Nunito-Italic.ttf');
+                font-style: italic;
+            }
+
+            @font-face {
+                font-family: Nunito;
+                src: url('https://sadhost.neocities.org/fonts/Nunito-BoldItalic.ttf');
+                font-style: italic;
+                font-weight: bold;
+            }
+
+            body {
+                font-family: 'Arial', sans-serif;
+                margin: 0
+                background-size: 65px;
+                color: #fceaff;
+                background-image: url(https://files.catbox.moe/tt5mwd.jpg);
+                background-size: cover; background-repeat: no-repeat; 
+                /* you can delete the line below if you'd prefer to not use an image */
+                 background-size: 100%;
+            }
+
+            * {
+                box-sizing: border-box;
+            }
+ul.clover {
+  list-style: none;
+}
+
+ul.clover li::before {
+  /* look up 'css code symbols' for more symbols */
+  content: "\2605";
+}
+            /* below this line is CSS for the layout */
+
+            /* this is a CSS comment
+    to uncomment a line of CSS, remove the * and the /
+    before and after the text */
+
+
+            /* the "container" is what wraps your entire website */
+            /* if you want something (like the header) to be Wider than
+    the other elements, you will need to move that div outside
+    of the container */
+            #container {
+                max-width: 900px;
+                /* this is the width of your layout! */
+                /* if you change the above value, scroll to the bottom
+      and change the media query according to the comment! */
+                margin: 0 auto;
+                /* this centers the entire page */
+            }
+
+            /* the area below is for all links on your page
+    EXCEPT for the navigation */
+            #container a {
+                color: #0000ee;
+                font-weight: bold;
+                /* if you want to remove the underline
+      you can add a line below here that says:
+      text-decoration:none; */
+            }
+
+            #header {
+                width: 100%;
+                background-color: #000000;
+                /* header color here! */
+                height: 150px;
+                /* this is only for a background image! */
+                /* if you want to put images IN the header, 
+      you can add them directly to the <div id="header"></div> element! */
+                background-image: var(--header-image);
+                background-image: url('https://files.catbox.moe/zskd2q.jpg');
+                background-repeat:no-repeat;
+                background-size: 100%;
+              
+            }
+
+
+
+            /* navigation section!! */
+            #navbar {
+                height: 40px;
+                background-color: #880000;
+                background: linear-gradient(#880000, #680101);
+                /* navbar color */
+                width: 100%;
+            }
+
+            #navbar ul {
+                display: flex;
+                padding: 0;
+                margin: 0;
+                list-style-type: none;
+                justify-content: space-evenly;
+            }
+
+            #navbar li {
+                padding-top: 10px;
+            }
+            
+            #navbar {
+            font-family: "Arial", Arial, sans-serif;
+            }
+
+            /* navigation links*/
+            #navbar li a {
+                color: #ffffff;
+                /* navbar text color */
+                font-weight: 700;
+                text-decoration: none;
+                /* this removes the underline */
+                
+              
+
+            }
+
+            /* navigation link when a link is hovered over */
+            #navbar li a:hover {
+                color: #ffffff;
+                text-decoration: underline;
+            }
+
+            #flex {
+                display: flex;
+            }
+
+            /* this colors BOTH sidebars
+    if you want to style them separately,
+    create styles for #leftSidebar and #rightSidebar */
+            aside {
+                background-color: #FFFFFF;
+          
+                /* color | style | width */
+                outline: #800000 solid 3px;
+                width: 200px;
+                padding: 20px;
+                font-size: smaller;
+                /* this makes the sidebar text slightly smaller */
+            }
+
+
+            /* this is the color of the main content area,
+    between the sidebars! */
+            main {
+              /* color | style | width */
+                outline: #800000 solid 3px;
+                background-color: #ffffee;
+                flex: 1;
+                padding: 20px;
+                order: 2;
+               
+                /* color | style | width */
+                outline: #800000 solid 3px;
+                
+            }
+            
+
+
+            /* what's this "order" stuff about??
+    allow me to explain!
+    if you're using both sidebars, the "order" value
+    tells the CSS the order in which to display them.
+    left sidebar is 1, content is 2, and right sidebar is 3! */
+
+            */ #leftSidebar {
+                order: 1;
+                width: 200px
+                
+            }
+
+            #rightSidebar {
+                order: 3;
+                
+                width: 200px
+            }
+
+            footer {
+                background-color: #880000;
+                background: linear-gradient(#880000, #680101);
+                /* background color for footer */
+                width: 100%;
+                height: 40px;
+                padding: 10px;
+                text-align: center;
+                color: white;
+                /* this centers the footer text */
+            }
+
+            h1,
+            h2,
+            h3 {
+                color: #880000;
+            }
+            
+            
+            
+            p,
+            li{
+                color: #800000;
+            }
+
+
+            h1 {
+                font-size: 25px;
+            }
+
+            strong {
+                /* this styles bold text */
+                color: #880000;
+            }
+
+            /* this is just a cool box, it's the darker colored one */
+            .box {
+                background-color: #fedbb6;
+                border: 1px solid #800000;
+                padding: 10px;
+            }
+
+            /* CSS for extras */
+
+            #marquee {
+                width: 100%;
+                height: 30px;
+                padding: 10px;
+                font-size: smaller;
+                background-color: ##ffccaa;
+            }
+
+
+            /* BELOW THIS POINT IS MEDIA QUERY */
+
+            /* so you wanna change the width of your page? 
+    by default, the container width is 900px.
+    in order to keep things responsive, take your new height,
+    and then subtrack it by 100. use this new number as the 
+    "max-width" value below
+    */
+
+            @media only screen and (max-width: 800px) {
+                #flex {
+                    flex-wrap: wrap;
+                }
+
+                aside {
+                    width: 100%;
+                }
+
+                /* the order of the items is adjusted here for responsiveness!
+      since the sidebars would be too small on a mobile device.
+      feel free to play around with the order!
+      */
+                main {
+                    order: 1;
+                }
+
+                #leftSidebar {
+                    order: 2;
+                }
+
+                #rightSidebar {
+                    order: 3;
+                }
+
+                #navbar ul {
+                    flex-wrap: wrap;
+                }
+            }
+        </style>
+
+  <style>
+  
+.h2{
+  
+font-family: Tahoma
+}
+
+</style>
+
+    <script src="visitors.js"></script>
+    
+    </div>
+    <style>
+    #mootykins {
+  border: 5px solid transparent;
+  border-image: linear-gradient(to bottom right, #800000 0%, #804300 25%, #7d8000 50%, #0e8000 75%, #000380 100%);
+  border-image-slice: 1;
+  width: 400px
+  height:597px
+}
+</style>
+   <style> 
+    #rainbow {
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    
+    background-color: rgba(255, 255, 238, 1.0);
+    /* Black w/opacity/see-through */
+}
+
+.rainbow {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 32px;
+    font-family: "Tahoma", Tahoma, sans-serif
+    letter-spacing: 5px;
+}
+.rainbow_text_animated {
+    background: linear-gradient(to right, #6666ff, #0099ff , #00ff00, #ff3399, #6666ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: rainbow_animation 6s ease-in-out infinite;
+    background-size: 400% 100%;
+}
+
+@keyframes rainbow_animation {
+    0%,100% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 100% 0;
+    }
+    </style>
+    <style>
+::-webkit-scrollbar {
+width: 16px
+}
+ 
+::-webkit-scrollbar:horizontal {
+height: 17px
+}
+ 
+::-webkit-scrollbar-corner {
+background: #eee
+}
+ 
+::-webkit-scrollbar-track:vertical {
+background: linear-gradient(90deg, #e5e5e5, #f0f0f0 20%)
+}
+ 
+::-webkit-scrollbar-track:horizontal {
+background: linear-gradient(180deg, #e5e5e5, #f0f0f0 20%)
+}
+ 
+::-webkit-scrollbar-thumb {
+border: 1.5px solid #888;
+border-radius: 3px;
+box-shadow: inset 0 -1px 1px #fff, inset 0 1px 1px #fff;
+background-color: #eee;
+}
+ 
+::-webkit-scrollbar-thumb:vertical {
+background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAKCAIAAADpZ+PpAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAADrSURBVChTTc5LboJQGAXguyoCu4ERCzAGlRk7UOwGWIDh0s4M4kxb06RSq/jAB6AxJkJ4lTDrue3AnvyzP+fLId+/yfM8juP7PQmCCOf7B3e+ZD+O40RRVFW12VQUpd3r9U3T2m4OpKoqWZYNwzBZLEqfh0N7NnvfrPcEWlEUWZb9mWF4Ph6D0ylcLbfM5HkeJrhGA2hb15/QXnv+w7RYXsDatjOdvnmrHSnLEizMNE2v11sUXQBCnn98kbquBUGQJAlmq9WB2e3qg4HJdqKkaRql1HGc0WgMcDJ5dd0F24kediZJ8t/ELT69H+8py0CYSIO5AAAAAElFTkSuQmCC") no-repeat 50%, linear-gradient(90deg, #eee 45%, #ddd 0, #bbb)
+}
+ 
+::-webkit-scrollbar-thumb:horizontal {
+background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAJCAYAAAALpr0TAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAADcSURBVChTNZBLqoUwEEQrURQUxZGCvy24ACfiityJi7tv8GauQoPxk5tquA2RQ9vVVYk6z9NZaxFFEe77htYazjk8z4MwDIVZ+rourOuKaZrwvi+WZcE8z1BKCbPPCjk4DAO2bRP1OI7wLiL6Mbd7J408z1GWpQwWRYGqqiQG+03TgMu0MacfUN4qANmn8UOv9MjW3sKaSm7iIdOSlziOQ3LScd93aPonSYK6riVLlmVo21aYfVqzND9pmqLrOlGT+76XbcxLZkb19/l3fEP+oF0cx8KMEASBsDEGX2/CgZCHkg+8AAAAAElFTkSuQmCC") no-repeat 50%, linear-gradient(180deg, #eee 45%, #ddd 0, #bbb)
+}
+ 
+::-webkit-scrollbar-button:horizontal:end:increment,
+::-webkit-scrollbar-button:horizontal:start:decrement,
+::-webkit-scrollbar-button:vertical:end:increment,
+::-webkit-scrollbar-button:vertical:start:decrement {
+display: block
+}
+ 
+::-webkit-scrollbar-button:vertical {
+height: 17px
+}
+ 
+::-webkit-scrollbar-button:vertical:start:decrement {
+background: white;
+background-image: url("https://cdn.discordapp.com/attachments/904308736712138793/1001299199633141851/download.png");
+background-repeat: no-repeat;
+background-position: center;
+-moz-background-size: cover;
+-webkit-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+ 
+::-webkit-scrollbar-button:vertical:start:increment {
+display: none;
+}
+ 
+::-webkit-scrollbar-button:vertical:end:decrement {
+display: none;
+}
+ 
+::-webkit-scrollbar-button:vertical:end:increment {
+background: white;
+background-image: url("https://cdn.discordapp.com/attachments/904308736712138793/1001299200052576387/87ae92e1-3894-4469-b1b9-aedf5f04975c.png");
+background-repeat: no-repeat;
+background-position: center;
+-moz-background-size: cover;
+-webkit-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+ 
+</style>
+  </body>
+  
+</html>
